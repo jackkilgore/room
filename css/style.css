@@ -1,0 +1,138 @@
+body 
+{
+    background: #ffffff;  /*  url("../assets/snake-sketch.jpg") no-repeat scroll 0cm 2cm; */
+}
+
+h1.title
+{
+    color: rgb(36, 29, 26);
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant: normal; /* normal / small-caps */
+    font-weight: 300;
+    font-size: 8em; /* % or em makes font zoomable -- 'pt' and 'px' makes it absolute */
+    letter-spacing: 12px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0%;
+    padding-top: 0%;
+    margin: 0px 0px 0px 0px;
+    /* font-style: italic; */
+}
+
+h2.center
+{
+    color: rgb(36, 29, 26);
+    font-weight: 300;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant: normal; /* normal / small-caps */
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 0px 0px 0px 0px;
+}
+
+div {
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+/* unvisited link */
+a:link {color: rgb(168, 67, 102);}
+
+/* visited link */
+a:visited {color: rgb(168, 67, 102);}
+
+.center
+{
+    display: flex;
+    justify-content: center;
+}
+
+p.left
+{
+    font-size: 1em;
+    color: rgb(36, 29, 26);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: right;
+    padding-left: 40%;
+    padding-right: 40%;
+    text-align: left;
+    
+}
+
+p.right
+{
+    font-size: 1em;
+    color: rgb(36, 29, 26);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: left;
+    padding-left: 40%;
+    padding-right: 40%;
+    text-align: right;
+    
+}
+
+p.center
+{
+    font-size: 1em;
+    color: rgb(36, 29, 26);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-left: 40%;
+    padding-right: 40%;
+    text-align: center;
+    
+}
+
+@media only screen and (max-device-width: 480px) {
+    p.center    
+    {
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+}
+
+img
+{
+    max-width: 100%;
+    max-height: 100%;
+    /* cursor: pointer; */
+}
+
+img.title_img
+{
+    max-width: 100%;
+    display:block;
+    cursor:default;
+}
+
+
+img.zoom
+{
+    /* display:inline-block;
+    text-align: center; */
+    height: 96%;
+    position:fixed;
+    margin:auto;
+    transform: translate(-50%, 0%);
+    padding-top: 2%;
+    cursor:default;
+    bottom: 2%;
+}
+
+#content {
+    padding-bottom:60px; /* Height of the footer element */
+}
+
+#footer {
+    text-align: center;
+    bottom:0;
+    width:100%;
+    height:30px;   /* Height of the footer */
+}

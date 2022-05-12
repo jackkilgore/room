@@ -21,6 +21,8 @@ h1.title
     /* font-style: italic; */
 }
 
+
+
 h2.center
 {
     color: rgb(36, 29, 26);
@@ -91,7 +93,21 @@ p.center
 }
 
 @media only screen and (max-device-width: 480px) {
+    h1.title
+    {
+        font-size: 6em;
+    }
     p.center    
+    {
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    p.right   
+    {
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    p.left  
     {
         padding-left: 0%;
         padding-right: 0%;
